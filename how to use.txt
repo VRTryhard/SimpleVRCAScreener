@@ -1,0 +1,10 @@
+- Install dotnet if not already done (check if dotnet is installed by opening your command prompt and typing `dotnet --version`)
+- Install AssetViewer if not already done and extract the content of the zip in the Viewer folder
+- Place your VRCAs in the VRCA folder
+- Open start.bat
+
+Extra: Seleting a custom VRCA Folder
+- Open the SimpleVRCAScreener folder
+- Right click in an empty space and click "Open in Terminal"
+- Edit and Run this command:
+dotnet run -- --PathOverride="C:\Your\Custom\Path"
