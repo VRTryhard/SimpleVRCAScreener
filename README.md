@@ -17,6 +17,7 @@ This program also checks for crashes, finds the file causing it and moves it to 
 - Right click in an empty space and click "Open in Terminal".
 - Edit and Run this command:
 ```dotnet run -- --PathOverride="C:\Your\Custom\Path"```
+
 Note: If a file gets moved to the Error folder, it means that AssetViewer can't open or handle it. I would recommand using [AssetRipper](https://github.com/AssetRipper/AssetRipper) to directly extract the data of the file.
 
 This is my first ever csharp and public code, I do not know much about coding so I'm always looking for tips and fixes!
